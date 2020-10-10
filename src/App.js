@@ -116,10 +116,10 @@ const App = () => {
             </div>
             <div className="catalog-items">
               <div className="previous" onClick={previousClick} data-testid="prev-icon">
-                <img src={previousIcon}/>
+                <img src={previousIcon} alt="prev"/>
               </div>
               <div className="next" onClick={nextClick} data-testid="next-icon">
-                <img src={nextIcon}/>
+                <img src={nextIcon} alt="next"/>
               </div>
               <Thumbs items={catalogs} currentIndex={currentIndex} selectedCatalog={selectedCatalog}/>
             </div>
